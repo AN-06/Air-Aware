@@ -19,9 +19,6 @@ Collected and preprocessed historical air quality data to prepare for time-serie
 ### 📈 Output
 - Cleaned dataset saved as **`openaq_preprocessed_daily.csv`**
 - Basic **EDA** done: distributions, correlations, and sample time-series trends  
-
-✅ *Milestone 1 completed — dataset ready for modeling.*
-
 ---
 
 
