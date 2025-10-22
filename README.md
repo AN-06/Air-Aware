@@ -21,4 +21,26 @@ Collected and preprocessed historical air quality data to prepare for time-serie
 - Basic **EDA** done: distributions, correlations, and sample time-series trends  
 ---
 
+## 🧩 **Milestone 2: Model Training & Evaluation**
+
+### 🔹 **Overview**  
+Trained and compared three forecasting models — **ARIMA**, **Prophet**, and **LSTM** — to predict daily **PM2.5** pollutant levels.
+
+### 🧠 **Key Steps**  
+- Split dataset into **80% train** and **20% test**  
+- Trained **ARIMA (5,1,2)**, **Prophet**, and **LSTM** models  
+- Evaluated performance using **RMSE** and **MAE**  
+- Visualized forecasts and compared model accuracy  
+- Selected and saved the **best model** for inference  
+
+### 📈 **Results**  
+- **ARIMA** performed best for short, stable data  
+- **Prophet** struggled due to lack of seasonality  
+- **LSTM** underperformed due to limited data  
+---
+---
+
+💾 **Output**  
+- **Best model:** ARIMA  
+- **Saved as:** `best_model_arima.pkl` (using **joblib**)  
 
