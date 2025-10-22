@@ -38,7 +38,7 @@ Trained and compared three forecasting models — **ARIMA**, **Prophet**, and **
 - **Prophet** struggled due to lack of seasonality  
 - **LSTM** underperformed due to limited data  
 
-💾 **Output**  
+### 💾 **Output**  
 - **Best model:** ARIMA  
 - **Saved as:** `best_model_arima.pkl` (using **joblib**)
 ---
